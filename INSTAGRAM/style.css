@@ -1,4 +1,5 @@
 /*      RESET PROPRIEDADES DOS BROWSERS     */
+
 * {
     margin: 0; padding: 0; box-sizing: border-box; 
     text-decoration: none; font-family: sans-serif;
@@ -12,7 +13,7 @@ body {
     
 }
 
-/* CONTEINER MAIN   */
+/* CONTAINER MAIN   */
 .instagram-wrapper {
     display: flex; align-items: center; justify-content: start;
     width: 60%; height: 100vh;
@@ -62,27 +63,20 @@ body {
 }
 
 
-
-
-.screen-phone a:hover {
-    
-    
-}
-
-
 /*      Imagem meramente ilustrativa Celular        */
+
 .instagram-phone img {
     height: auto;
 }
 
 
 /*      Tela de Login Instagram         */
+
 .instagram-continue {
     display: flex; align-items: center;
     justify-content: space-around; flex-direction: column;
     width: 50%; min-height: 34rem;
 }
-
 
 .group {
     display: flex; justify-content: space-between;
@@ -104,7 +98,9 @@ body {
     border-radius: 50%;  overflow: hidden;
 }
 
+
 .profile-photo img{ height: 6rem; }
+
 
 .instagram-login {
     background-color: #0095f6; color: #ffffff;
